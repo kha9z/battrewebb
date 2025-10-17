@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="formular.css">
     <link rel="stylesheet" href="layout.css">
-
-    <title>Document</title>
+    <link rel="shortcut icon" href="img/bwicon.ico" type="image/x-icon">
+    <title>Bättre Webb</title>
 </head>
 <body>
 
@@ -26,53 +26,72 @@
     <img class="hero-image" src="img/herony.png" alt="Hero Image">
   </div>
 
+<form class="registration-form-section">
 
+        <div class="input-group">
+            <!-- Namn -->
+            <div class="form-container">
+                <input type="text"
+                    id="name"
+                    name="name"
+                    autocomplete="off"
+                    placeholder=" "
+                    class="forminput" required/>
+                <label for="name">Namn</label>
+            </div>
 
-<div class="container">
-     <form class="form-container">
-        <input type="text"
-         id="name"
-         autocomplete="off"
-         placeholder=" "
-         class="forminput"/>
-        <label for="name">Namn</label>
-     </form>
+            <!-- Adress -->
+            <div class="form-container">
+                <input type="text"
+                    id="adress"
+                    name="adress"
+                    autocomplete="off"
+                    placeholder=" "
+                    class="forminput" required/>
+                <label for="adress">Adress</label>
+            </div>
 
-     <form class="form-container">
-        <input type="text"
-        id="adress"
-        autocomplete="off"
-        placeholder=" "
-        class="forminput"/>
-        <label for="adress">Adress</label>
-      </form>
+            <!-- E-Post -->
+            <div class="form-container">
+                <input type="email"
+                    id="email"
+                    name="email"
+                    autocomplete="off"
+                    placeholder=" "
+                    class="forminput" required/>
+                <label for="email">E-Post</label>
+            </div>
+        </div>
+        
+        <!-- Kostpreferenser -->
+        <div class="radio-group">
+            <h3>Välj Kostpreferens</h3>
+            
+            <input type="radio" 
+                id="meat" 
+                name="matpreferans" 
+                value="meat"
+                checked>
+            <label for="meat">Kött</label>
+            
+            <input type="radio" 
+                id="fish" 
+                name="matpreferans" 
+                value="fish">
+            <label for="fish">Fisk</label>
+            
+            <input type="radio" 
+                id="vegan" 
+                name="matpreferans" 
+                value="vegan">
+            <label for="vegan">Vegansk</label>
+        </div>
 
-      <form class="form-container">
-        <input type="email"
-        id="email"
-        autocomplete="off"
-        placeholder=" "
-        class="forminput"/>
-       <label for="email">E-Post</label>
-      </form>
-  </div>
+        <button type="submit" class="submit-button">
+            Anmäl mig
+        </button> 
 
-<div class="mat-container">
-    <form class="mat-form">
-        <h2>Mat Preferans</h2>
-        <select>
-            <option value="meat">Kött</option>
-            <option value="fish">Fisk</option>
-            <option value="vegan">Vegansk</option>
-        </select>
-      <input type="text"
-      id="allergies"
-      autocomplete="off"
-      placeholder=" "
-      />
-      <label for="allergies">Allergier</label>
     </form>
-</div>
-</div>
+
 </body>
 </html>
