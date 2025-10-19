@@ -30,11 +30,6 @@
                         inset 0px 2px 4px var(--button-white);
                         border-radius: 0.5em;}
 
-                          .sem-container div:hover        
-                       {transition: 0.3s;
-                        font-size: 1.1em;}
-
-
                           h1                     
                        {text-align: center;
                         margin-top: 1.7em;
