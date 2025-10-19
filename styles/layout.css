@@ -138,5 +138,9 @@
 
           .hero-image 
       {width: 90%;}
+}
 
+@media (max-width: 400px) {
+          .header-container nav a
+      {letter-spacing: 0.5em}
 }
