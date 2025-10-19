@@ -6,7 +6,7 @@
         {font-family: sans-serif;
          margin: 0;
          box-sizing: border-box;
-         color: #ffffff;
+         color: #e2e2e2;
          background-color: var(--backround-grey);}
 
 
@@ -16,7 +16,8 @@
          --button-white: rgb(243, 234, 234);
          --header-black: rgba(22, 21, 21, 0.9);
          --glow-light: rgb(219, 221, 231);
-         --backround-grey: #1a1b1b;}
+         --backround-grey: #1a1b1b;
+         --text-white: #e2e2e2;}
 
 
 
@@ -59,7 +60,7 @@
          margin: 0 1em;
          padding: 0.5em 1em;
          text-decoration: none;
-         color: var(--future-white);
+         color: var(--text-white);
          font-weight: bold;
          font-size: 1.1rem;
          text-shadow: 0 0 2px var(--button-white); 
@@ -68,7 +69,7 @@
 
 
             .header-container nav a:hover {
-         color: var(--button-hover-white); 
+         color: var(--text-white); 
          box-shadow: 0 0 10px var(--button-hover-white), 
                      inset 0 0 5px var(--button-hover-white);}
 
@@ -99,7 +100,7 @@
          border-top: 1px solid var(--button-hover-white);
          box-shadow: 0 0 10px var(--button-hover-white) inset;
          background-color: var(--header-black);
-         color: var(--button-white);
+         color: var(--text-white);
          margin-top: 7em;}
 
 
